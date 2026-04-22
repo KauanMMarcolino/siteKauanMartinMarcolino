@@ -52,3 +52,22 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
+@media (max-width: 600px) {
+
+    header h1 {
+        display: block; 
+        margin: 10px 0 0 0;
+        font-size: 20px;
+    }
+
+    nav a {
+        display: block; 
+        margin: 5px auto;
+        width: 80%;
+    }
+
+    article {
+        font-size: 14px; 
+    }
+}
